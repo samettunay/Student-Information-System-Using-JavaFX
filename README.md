@@ -6,3 +6,26 @@ Student information system automation with JavaFX and MySQL Database
 ![bandicam 2022-07-06 13-17-54-031](https://user-images.githubusercontent.com/79511355/177530310-2deeee60-c9a3-424b-9f7a-ef44af10bfd0.gif)
 
 ## MySQL Database
+
+- I used xampp for database
+
+# For Connection
+
+- DatabaseUtil.java
+
+```java
+public class DatabaseUtil {
+	static Connection conn=null;
+	public static Connection Baglan(){
+		try{
+      // jdbc:mysql:// Server IPAdresi/db_ismi","kullanici",
+    	conn = DriverManager.getConnection("jdbc:mysql://localhost/isteDB", "root", "mysql");
+    	return conn;
+    	}
+    	catch(Exception e){
+    		// TODO:handle exception
+    		return null;
+    	}
+	}
+}
+```
