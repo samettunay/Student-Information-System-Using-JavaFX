@@ -1,0 +1,71 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.primary-color {
+	-fx-background-color: #2F2B43;
+}
+
+.secondary-color {
+	-fx-background-color: #524A7B;
+}
+
+.choice-box {-fx-background-color: #524A7B;}
+
+.choice-box .context-menu { -fx-background-color: #393351; }
+
+.choice-box .menu-item:focused { -fx-background-color: #2F2B43; }
+
+.choice-box .menu-item > .label { -fx-text-fill: #524A7B; }
+
+.choice-box .menu-item:focused > .label { -fx-text-fill: white; }
+
+.tertiary-color {
+	-fx-background-color: #393351;
+}
+.button {
+	-fx-background-color: #ff4a6f;
+}
+
+.button:hover {
+	-fx-background-color: #FA2C56;
+}
+
+.button-close:hover {
+	-fx-background-color: #1e1b2b;
+}
+
+.toggle-button {
+	-fx-background-color: #ff4a6f;
+}
+
+.toggle-button:selected {
+	-fx-background-color: #524A7B;
+}
+
+.bg-radius {
+	-fx-background-radius: 100px;
+}
+
+.text-style {
+	-fx-text-fill: white;
+	-fx-fill: white;
+	-fx-font-family: 'Bookshelf Symbol 7', Arial, sans-serif;
+	-fx-font-size: 13;
+}
+
+.text {
+	-fx-text-fill: white;
+	-fx-fill: white;
+	-fx-font-family: 'Bookshelf Symbol 7', Arial, sans-serif;
+	-fx-font-size: 13;
+}
+
+.menu-color {
+	-fx-background-color:  #252236;
+}
+
+.dialog {
+   -fx-background-color: #2F2B43;
+  }
+  
+.dialog:header *.header-panel {
+   -fx-background-color: #2F2B43;
+  }
