@@ -27,3 +27,7 @@ public class DatabaseUtil {
     }
 }
 ```
+# Usage
+
+- Import istedb.sql file your MySQL Database
+- Open "İSTE Öğrenci Bilgi Sistemi" file from Eclipse or your compiler
