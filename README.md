@@ -1,6 +1,6 @@
-
-<p align="center">
 # Student-Information-System-Using-JavaFX
+<p align="center">
+
 Student information system automation with JavaFX and MySQL Database
 </p>
 
